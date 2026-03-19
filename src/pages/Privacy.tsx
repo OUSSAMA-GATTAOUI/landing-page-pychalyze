@@ -62,7 +62,7 @@ const Privacy = () => {
           </ul>
           <p className="mt-2">
             We do not sell your data. We do not share it with advertisers or third parties
-            except Ko-fi (our payment processor) which receives only your email address
+            except Gumroad (our payment processor) which receives your email address
             when processing a Pro plan purchase.
           </p>
         </section>
@@ -97,7 +97,7 @@ const Privacy = () => {
         <section className="space-y-3">
           <h2 className="font-mono-display text-foreground text-lg">7. Cookies</h2>
           <p>
-            This website (pichalyze.com) does not use tracking cookies or analytics.
+            This website does not use tracking cookies or analytics.
             No third-party scripts collect data about your visit.
           </p>
         </section>

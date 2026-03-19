@@ -42,7 +42,7 @@ const Terms = () => {
         <section className="space-y-3">
           <h2 className="font-mono-display text-foreground text-lg">4. Payments and refunds</h2>
           <p>
-            Payments for the Pro plan are processed by Ko-fi. If Pichalyze does not function as
+            Payments for the Pro plan are processed by Gumroad. If Pichalyze does not function as
             described on your machine, contact us within 7 days of purchase at
             gattaouioussama@gmail.com for a full refund. Refunds are issued at the developer's
             discretion after this period.
