@@ -1,3 +1,5 @@
+const DOWNLOAD_LINK = "https://github.com/OUSSAMA-GATTAOUI/pichalyze/releases/latest/download/Pichalyze_v1.0.zip";
+
 const tableRows = [
   { id: "#8842", time: "2023-10-24 14:02:11", ip: "192.168.1.45", size: "1,420 KB", status: "ACTIVE", color: "primary", latency: "12ms" },
   { id: "#8843", time: "2023-10-24 14:02:15", ip: "10.0.0.122", size: "844 KB", status: "PENDING", color: "warning", latency: "45ms" },
@@ -27,11 +29,14 @@ const Hero = () => (
     </h1>
 
     <p className="reveal max-w-[600px] text-muted-foreground mb-10 text-lg">
-      Professional-grade data analysis for Windows. 100% offline, lightning fast, and built for precision. No Python scripts required.
+      Professional-grade data analysis for Windows. Your files stay on your machine — lightning fast, no Python scripts required.
     </p>
 
     <div className="reveal flex gap-4 mb-16 flex-wrap justify-center">
-      <a href="#" className="font-mono text-xs px-6 py-3 bg-primary text-primary-foreground border border-primary hover:bg-transparent hover:text-primary transition-all">
+      <a
+        href={DOWNLOAD_LINK}
+        className="font-mono text-xs px-6 py-3 bg-primary text-primary-foreground border border-primary hover:bg-transparent hover:text-primary transition-all"
+      >
         DOWNLOAD FOR WINDOWS
       </a>
       <a href="#features" className="font-mono text-xs px-6 py-3 border border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all">
@@ -40,7 +45,6 @@ const Hero = () => (
     </div>
 
     <div className="reveal w-full max-w-[1000px] bg-surface border border-border rounded-md overflow-hidden relative shadow-[0_40px_100px_rgba(0,0,0,0.5)]" style={{ transitionDelay: "0.2s" }}>
-      {/* Corner brackets */}
       {[
         "top-[-10px] left-[-10px] border-r-0 border-b-0",
         "top-[-10px] right-[-10px] border-l-0 border-b-0",
@@ -56,7 +60,7 @@ const Hero = () => (
           <div className="w-2.5 h-2.5 rounded-full bg-muted" />
           <div className="w-2.5 h-2.5 rounded-full bg-muted" />
         </div>
-        <span className="font-mono-display text-[0.6rem]">pichalyze_v1.0.4 - session_active</span>
+        <span className="font-mono-display text-[0.6rem]">pichalyze_v1.0 — session_active</span>
       </div>
 
       <div className="overflow-x-auto">

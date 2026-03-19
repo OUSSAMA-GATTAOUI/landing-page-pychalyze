@@ -1,12 +1,36 @@
 const features = [
-  { title: "Multi-Format Support", desc: "Seamlessly open and merge CSV, Excel, JSON, and Parquet files without configuration." },
-  { title: "Clean Operations", desc: "Apply 30+ built-in cleaning operations: deduplication, null handling, type casting, and more." },
-  { title: "Filter & Sort", desc: "High-performance filtering engine capable of handling millions of rows with zero lag." },
-  { title: "Visual Analytics", desc: "Generate instant charts and distributions to understand your data patterns visually." },
-  { title: "Advanced Export", desc: "Export your processed datasets back to optimized Parquet or standard Excel formats." },
-  { title: "100% Offline", desc: "Your data never leaves your machine. No cloud, no tracking, total privacy by design." },
-  { title: "No-Code Logic", desc: "Build complex data transformations using a visual interface. No coding required." },
-  { title: "Windows Native", desc: "Optimized for Windows 10 and 11 with low memory footprint and high execution speed." },
+  {
+    title: "Multi-Format Support",
+    desc: "Open CSV, Excel, JSON, and Parquet files. Free plan supports files up to 8 MB. Pro plan has no size limit.",
+  },
+  {
+    title: "30+ Clean Operations",
+    desc: "Fill nulls, deduplicate, type-cast, normalize, encode labels, regex replace, derive columns and much more.",
+  },
+  {
+    title: "Filter & Sort Engine",
+    desc: "High-performance filtering across millions of rows — by value, regex, date range, null state, and more.",
+  },
+  {
+    title: "Visual Analytics",
+    desc: "Generate charts and statistical distributions to spot trends and anomalies instantly. Pro feature.",
+  },
+  {
+    title: "Advanced Analytics",
+    desc: "Deeper statistical profiling, correlation matrices, and outlier detection — available on Pro plan.",
+  },
+  {
+    title: "Parquet & Excel Export",
+    desc: "Export cleaned datasets to optimized Parquet or standard Excel formats. Requires Pro plan.",
+  },
+  {
+    title: "No-Code Interface",
+    desc: "Build complex data transformations through a visual interface. No Python or SQL knowledge required.",
+  },
+  {
+    title: "Secure by Design",
+    desc: "Your data files are processed 100% locally — they never leave your machine. Accounts use encrypted cloud auth.",
+  },
 ];
 
 const Features = () => (
